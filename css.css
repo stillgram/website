@@ -799,6 +799,7 @@ header video {
 
     body {
         font-size: 0.8em;
+        overflow-x: hidden;
     }
 
     nav {
@@ -949,7 +950,7 @@ header video {
 
 
     nav #mc_embed_signup {
-        padding: 0.5em 0;
+        padding: 0;
         margin: 0 auto;
         
         width: 100%;
@@ -967,8 +968,8 @@ header video {
 
     nav #mc_embed_signup img#PHlogo {
         height: auto;
-        max-height: 4em;
-        margin: 0 auto -0.5em auto;
+        max-height: 5em;
+        margin: -0.5em auto;
         
     }
 
@@ -997,7 +998,7 @@ header video {
     }
 
     nav #mc_embed_signup input {
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
     nav #mc_embed_signup input[type=email] {
@@ -1010,8 +1011,9 @@ header video {
 
 
     nav #mc_embed_signup input[type=submit] {
-        padding: 0.55em 1em;
-        border-radius: 1em/50%;        
+        padding: 0.75em 1em;
+        border-radius: 1.4em/50%;
+        font-size: 1.2em;
 
     }
 
