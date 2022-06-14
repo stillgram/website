@@ -823,6 +823,8 @@ header video {
         align-items: stretch;
         flex-direction: column-reverse;
         z-index: 1;
+
+        position: relative;
     }
 
     nav section#mainNav {
@@ -831,6 +833,7 @@ header video {
         padding: 0.5em;
         width: auto;
         z-index: 1;
+        position: relative;
     }
 
     nav section#mainNav section {
@@ -969,8 +972,6 @@ header video {
         
         background-image: none;
 
-        position: relative;
-
         display: flex;
         align-items: flex-start;
         justify-items: space-evenly;
@@ -1006,6 +1007,7 @@ header video {
     nav #mc_embed_signup form {
         background-image: linear-gradient(-175deg, rgba(255,153,0,0.98) 0%, rgba(255,70,0,0.98) 100%);
         padding-bottom: 1em;
+
     }
 
     nav #mc_embed_signup input {
