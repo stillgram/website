@@ -83,7 +83,7 @@
 
 		<header>
 
-			<video poster="img/headerBg.jpg" preload autoplay muted loop playsinline>
+			<video poster="img/headerBg.jpg" preload autoplay muted loop playsinline onclick="this.paused ? this.play() : this.pause();" preload="metadata">
 					<source src="vid/header_bg.mp4" type="video/mp4">
 					<source src="vid/header_bg.mov" type="video/mp4">
 
@@ -200,7 +200,7 @@
 
 			<ul>
 				<li>
-					<video poster="img/poster_protips.png" preload autoplay onclick="this.paused ? this.play() : this.pause();">
+					<video poster="img/poster_protips_1.jpg" preload autoplay loop onclick="this.paused ? this.play() : this.pause();">
   						<source src="vid/tutorial1.mov" type="video/mp4">
   						<source src="movie.ogg" type="video/mp4">
 						Your browser does not support the video tag.
@@ -210,18 +210,18 @@
 					<p>Stillgram’s a.i. needs a glimpse of what’s behind the crowds. Avoid large crowds standing still or moving towards you. There's always a better angle with the same background.</p>
 				</li>
 				<li>
-					<video poster="img/poster_protips.png" onclick="this.paused ? this.play() : this.pause();">
-  						<source src="vid/tutorial1.mov" type="video/mp4">
+					<video poster="img/poster_protips_2.jpg" preload loop onclick="this.paused ? this.play() : this.pause();">
+  						<source src="vid/tutorial2.mov" type="video/mp4">
   						<source src="movie.ogg" type="video/ogg">
 						Your browser does not support the video tag.
 					</video>
 					<p class="numbered"><strong class="pro">PRO</strong> TIP 2 / 3</p>
 					<h3>Moving crowds are perfect</h3>
-					<p>Always look for an angle where the crowds are moving. Stillgram is constantly measuring the crowd density and when it’s to high, we’ll suggest you to move around a bit.</p>
+					<p>Always look for an angle from which the crowds are moving. Stillgram is constantly measuring the crowd density and when it’s to high, we’ll suggest you to move around a bit.</p>
 				</li>
 				<li>
-					<video poster="img/poster_protips.png" onclick="this.paused ? this.play() : this.pause();">
-  						<source src="vid/tutorial1.mov" type="video/mp4">
+					<video poster="img/poster_protips_3.jpg" preload loop onclick="this.paused ? this.play() : this.pause();">
+  						<source src="vid/tutorial3.mov" type="video/mp4">
   						<source src="movie.ogg" type="video/ogg">
 						Your browser does not support the video tag.
 					</video>
@@ -244,16 +244,12 @@
 			<table>
 				<tbody>
 					<tr>
-						<td><span class="notpro">NOT PRO</span> Resolution: <strong>1K</strong></td>
-						<td><span class="pro">PRO</span>Resolution: <strong>4K</strong></td>
+						<td><span class="notpro">NOT PRO</span> <strong class="big">1K</strong> Photo Resolution</td>
+						<td><span class="pro">PRO</span><strong class="bigbig">4K</strong> Photo Resolution</td>
 					</tr>
 					<tr>
 						<td>Stay-in-the-photo <br>(<strong>selfie mode only</strong>)</td>
-						<td class="odd"><strong>Choose-who-stays-in-the-photo</strong><br> (selfie and landscape mode)</td>
-					</tr>
-					<tr>
-						<td>Crowd density meter</td>
-						<td>Crowd density meter</td>
+						<td class="odd"><strong>Choose-who-stays-in-the-photo</strong><br> (selfie and main camera)</td>
 					</tr>
 					<tr>
 						<td>Watermark</td>
