@@ -1373,7 +1373,7 @@ header video {
 
 @media screen and (min-width: 2001px) { 
     body {
-        font-size: 3vh;
+        font-size: 2em;
     }
 
 }
