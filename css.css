@@ -908,6 +908,7 @@ header video {
         position: relative;
         justify-content: space-evenly;
         gap: 1em;
+        z-index: 100;
 
         -webkit-backdrop-filter: saturate(180%) blur(40px);
         backdrop-filter: saturate(180%) blur(40px);
