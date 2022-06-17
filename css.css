@@ -235,8 +235,8 @@ header video {
     }
 
     nav #mc_embed_signup .mc-field-group {
-        margin: 0 auto;
-        align-items: stretch;
+        margin: 0 auto 0 0;
+        align-content: stretch;
         display: flex;
         
     }
@@ -1000,6 +1000,7 @@ header video {
 
     nav #mc_embed_signup .mc-field-group {
         flex-direction: column;
+        margin: 0 auto;
 
     }
 
@@ -1377,11 +1378,6 @@ header video {
 
     nav {
         font-size: 2vh;
-    }
-
-    nav #mc_embed_signup .mc-field-group {
-        margin: 0 auto 0 0;
-        
     }
 
     header #headerDescription {
