@@ -682,7 +682,7 @@ header video {
 
 
 /* TABLET */
-@media screen and (orientation: portrait) and (max-width: 1024px) { 
+@media screen and (orientation: portrait) and (max-width: 1366px) { 
 
     body {
         max-width: 1024px;
@@ -1373,7 +1373,7 @@ header video {
 
 /* MOBILE > HORIZONTAL */
 
-@media screen and (max-width: 1024px) and (orientation: landscape) { 
+@media screen and (max-width: 1366px) and (orientation: landscape) { 
 
     nav {
         font-size: 2vh;
@@ -1384,12 +1384,17 @@ header video {
         
     }
 
-    main p {
-        line-height: 1.2;
-    }
-
     header #headerDescription {
         font-size: 3vh;
+    }
+
+    header #headerDescription p {
+        font-size: 1.2em;
+    }
+
+
+    main p {
+        line-height: 1.2;
     }
 
 }
