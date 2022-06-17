@@ -235,11 +235,10 @@ header video {
     }
 
     nav #mc_embed_signup .mc-field-group {
-        margin: 0 auto 0 0;
+        margin: 0 auto;
         align-items: stretch;
         display: flex;
         
-
     }
 
     nav #mc_embed_signup form {
@@ -1380,6 +1379,11 @@ header video {
         font-size: 2vh;
     }
 
+    nav #mc_embed_signup .mc-field-group {
+        margin: 0 auto 0 0;
+        
+    }
+
     main p {
         line-height: 1.2;
     }
@@ -1387,6 +1391,7 @@ header video {
     header #headerDescription {
         font-size: 3vh;
     }
+
 }
 
 
