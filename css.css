@@ -380,6 +380,7 @@ header video {
         flex-wrap: wrap;
         grid-gap: 3%;
         padding-bottom: 1em;
+        align-items: baseline;
     }
 
     main section ul li {
@@ -618,8 +619,46 @@ header video {
         flex-grow: 1;
     }
 
-    footer section:first-child {
-        
+    footer section:first-child:hover {
+        background-color: #00C800;
+        animation: flash_background 3s ease-in-out infinite;
+        border-radius: 5%;
+    }
+
+    @keyframes flash_background {
+      0% {
+        background-color: rgba(0, 200, 0, 0.5);
+      }
+      10% {
+        background-color: rgba(0, 200, 0, 1);
+      }
+      20% {
+        background-color: rgba(0, 0, 0, 1);
+      }
+      30% {
+        background-color: rgba(200, 0, 100, 0.5);
+      }
+      40% {
+        background-color: rgba(200, 0, 100, 1);
+      }
+      50% {
+        background-color: rgba(0, 0, 0, 1);
+      }
+      60% {
+        background-color: rgba(0, 200, 200, 0.5);
+      }
+      70% {
+        background-color: rgba(0, 200, 200, 1);
+      }
+      80% {
+        background-color: rgba(0, 0, 0, 1);
+      }
+      90% {
+        background-color: rgba(200, 200, 0, 0.5);
+      }
+      100% {
+        background-color: rgba(200, 200, 0, 1);
+      }
     }
 
     footer section ul {
@@ -981,7 +1020,8 @@ header video {
     nav #mc_embed_signup img#PHlogo {
         height: auto;
         max-height: 5em;
-        margin: -0.5em auto;
+        margin: 0 auto -0.5em auto;
+        z-index: 0;
         
     }
 
