@@ -482,6 +482,11 @@ header video {
     }
 
 
+
+    main section#pricing p:first-of-type {
+        font-size: 1.5em;
+    }
+
     main section#pricing table {
         border-spacing: 0.5em;
         border-collapse: separate;
@@ -535,7 +540,7 @@ header video {
     }
 
     main section#pricing table .or {
-        font-size: 50%;
+        font-size: 75%;
         padding: 1em 0;
         font-style: italic;
         display: block;
